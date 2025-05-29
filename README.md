@@ -46,3 +46,28 @@ Qualitative comparison of EDSDF with other methods. (1) Input images. (2) Ground
 <img src="pic/Feature_map_vis.png" width=50% 
 class="center">
 </p>
+
+## Dataset
+
+This project supports multiple medical image segmentation datasets, each organized with the following directory structure:
+
+```dataset_root/
+├── train/
+│ ├── images/
+│ ├── masks/
+│ └── boundaries/
+├── val/
+│ ├── images/
+│ ├── masks/
+│ └── boundaries/
+└── test/
+├── images/
+├── masks/
+└── boundaries/```
+
+The datasets used and their corresponding splits are:
+
+- **ISIC2018**: Official split with 2594 training, 100 validation, and 1000 test images.
+- **CVC-ClinicDB**: Split with an 8:1:1 ratio for training, validation, and test sets.
+- **Kvasir-SEG**: Split with a 3:1:1 ratio.
+- **MSD Task06-Lung**: 3D volumes are converted into 2D slices; split with a 3:1:1 ratio.
