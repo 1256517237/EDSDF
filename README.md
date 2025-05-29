@@ -15,7 +15,7 @@ class="center">
 </p>
 
 <p align="center">
-<img src="pic/Architecture2.png" width=80% 
+<img src="pic/Architecture2.png" width=81% 
 class="center">
 </p>
 
