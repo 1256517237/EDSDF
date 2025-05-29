@@ -1,8 +1,9 @@
 # EDSDF
 EDSDF: An Efficient Deep Supervised Distillation Framework for Medical Image Segmentation
+### 🚀🚀🚀 May 2025: EDSDF has been accepted by *Neurocomputing*!
 
 ## File Descriptions
-
+> 📁 The provided code offers a minimal and illustrative training and evaluation pipeline, intended as a simplified example for quick understanding and reproduction.
 - `make_json.py`: Used to generate JSON files containing dataset paths.
 - `train_EDSDF.py`: Used to train the EDSDF model.
 - `train_EDSDF_KD.py`: Used to train the student model using KAMSD.
