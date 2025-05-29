@@ -16,7 +16,7 @@ from dataset_aug import preDataset_aug
 
 from torchsummary import summary
 import argparse
-from loss.losses import DiceLoss
+from losses import DiceLoss
 from thop import profile
 from thop import clever_format
 from medpy import metric
