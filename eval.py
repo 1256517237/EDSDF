@@ -8,7 +8,7 @@ import torchvision
 from torchvision import datasets, transforms, models
 from torch import nn
 from torch.utils.data import DataLoader
-from dataset_aug_demodecoder import preDataset_aug
+from dataset_aug import preDataset_aug
 from torchsummary import summary
 import argparse
 from thop import profile
