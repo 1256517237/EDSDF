@@ -14,7 +14,7 @@ from torch.utils.data import DataLoader
 from dataset_aug import preDataset_aug
 from torchsummary import summary
 import argparse
-from .losses import DiceLoss, CriterionKD
+from losses import DiceLoss, CriterionKD
 from thop import profile
 from thop import clever_format
 from medpy import metric
