@@ -10,7 +10,7 @@ EDSDF: An Efficient Deep Supervised Distillation Framework for Medical Image Seg
 
 ## Architecture
 <p align="center">
-<img src="pic/Architecture1.png" width=50% 
+<img src="pic/Architecture1.png" width=80% 
 class="center">
 </p>
 
