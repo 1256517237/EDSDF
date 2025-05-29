@@ -91,7 +91,7 @@ def train_student(model_student, model_teacher, train_root, val_root, test_root,
     for param in model_teacher.parameters():
         param.requires_grad = False
 
-    # step3: training
+    # step3: training with KAMSD
     for epoch in range(epochs):
 
         trainLoss_sum = 0.0
