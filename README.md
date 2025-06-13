@@ -6,7 +6,7 @@ EDSDF: An Efficient Deep Supervised Distillation Framework for Medical Image Seg
 > 📁 The provided code offers a minimal and illustrative training and evaluation pipeline, intended as a simplified example for quick understanding and reproduction.
 - `make_json.py`: Used to generate JSON files containing dataset paths.
 - `train_EDSDF.py`: Used to train the EDSDF model.
-- `train_EDSDF_KD.py`: Used to train the student model using KAMSD.
+- `train_EDSDF_KAMSD.py`: Used to train the student model using KAMSD.
 - `eval.py`: Used to evaluate model performance.
 
 ## Architecture
