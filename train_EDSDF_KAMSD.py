@@ -44,7 +44,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-def train_student(model_student, model_teacher, train_root, val_root, test_root, batch_size, lr, epochs, T=4.0, early_stop_patience=None):
+def train_student(model_student, model_teacher, train_root, val_root, test_root, batch_size, lr, epochs, T=4.0, early_stop_patience=None): # train student model with KAMSD
     no_improve_count = 0  
     
      # Lists to store metrics for visualization
